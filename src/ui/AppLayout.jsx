@@ -10,7 +10,7 @@ function AppLayout() {
 
   return (
     <div className="grid h-screen grid-rows-[auto_1fr_auto]">
-      {isLoading && <Loader />}
+      {isLoading && <Loader />} 
       <Header />
 
       {/* max-w-3xl */}
@@ -22,6 +22,7 @@ function AppLayout() {
       </div>
 
       <CartOverview />
+      {/* <CartOverview /> */}
     </div>
   );
 }
