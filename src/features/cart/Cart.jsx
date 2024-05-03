@@ -38,9 +38,9 @@ function Cart() {
       {/* <h2>Your cart, %NAME%</h2> */}
 
       <div>
-        <div className="flex items-center">
+        <div className="flex flex-row justify-center align-center">
           <Button to="/order/new" type="primary">
-            Join Community <BsArrowUpRightCircleFill />
+            Join Community <BsArrowUpRightCircleFill className="inline-block" />
           </Button>
         </div>
 
