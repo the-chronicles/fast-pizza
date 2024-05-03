@@ -1,0 +1,23 @@
+.gradient-ring:focus {
+    outline: none;
+  }
+  
+  .gradient-ring:focus-visible {
+    animation: pulse-ring 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+    }
+    100% {
+      transform: scale(1.2);
+      box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+    }
+  }
+  
