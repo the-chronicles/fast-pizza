@@ -1,0 +1,28 @@
+.focus:ring-gradient {
+    /* Animation for a smooth appearance */
+    animation: focus-ring-animate 0.3s ease-in-out forwards;
+  }
+  
+  /* Define the animation */
+  @keyframes focus-ring-animate {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Focus ring styles with gradient */
+  .focus:ring {
+    /* Set desired ring width */
+    width: 2px;
+    /* Set your gradient colors here */
+    background: linear-gradient(to right, #f2712c, #e31a1a);
+    /* Inherit border-radius from the button */
+    border-radius: inherit;
+    /* Remove default outline */
+    outline: none;
+  }
+  
+  

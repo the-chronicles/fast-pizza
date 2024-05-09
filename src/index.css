@@ -1,3 +1,4 @@
+@import 'button.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -44,6 +45,21 @@
         0% 50%,
         50% 50%,
         100% 100%;
+    }
+  }
+
+  .focus:ring-gradient {
+    /* Animation for a smooth appearance */
+    animation: focus-ring-animate 0.3s ease-in-out forwards;
+  }
+  
+  /* Define the animation */
+  @keyframes focus-ring-animate {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
     }
   }
 }

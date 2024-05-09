@@ -13,5 +13,8 @@ export default {
       },
     },
   },
+  utilities: {
+    'focus:ring-gradient': ['responsive'],
+  },
   plugins: [],
 };

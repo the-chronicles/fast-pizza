@@ -33,18 +33,16 @@ function Cart() {
 
   return (
     <div>
-      {/* <LinkButton to="/menu">&larr; Back to menu</LinkButton> */}
+      <LinkButton to="/menu">&larr; Back to menu</LinkButton>
 
-      {/* <h2>Your cart, %NAME%</h2> */}
+      <h2>Your cart, %NAME%</h2>
 
       <div>
-        <div className="flex flex-row justify-center align-center">
-          <Button to="/order/new" type="primary">
-            Join Community <BsArrowUpRightCircleFill className="inline-block" />
-          </Button>
-        </div>
+        <Button to="/order/new" type="primary">
+          Order Now
+        </Button>
 
-        {/* <button>Clear cart</button> */}
+        <button>Clear cart</button>
       </div>
     </div>
   );
